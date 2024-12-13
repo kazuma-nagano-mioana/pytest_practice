@@ -19,7 +19,7 @@ jobs:
         pip install pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Add PYTHONPATH
-      run: echo "PYTHONPATH=${{ github.workspace }}/src" >> $GITHUB_ENV
+      run: echo "PYTHONPATH=$"C:\Users\kazuma.nagano\Desktop\生成AI研修\Pytestによるテストの基礎とGitHubにおける自動テストCIの実行\演習用サンプルコード\pytest_practice\pytest_practice\src"" >> $GITHUB_ENV
     - name: Run tests
       run: |
         pytest
